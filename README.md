@@ -1,4 +1,4 @@
-### Espacio para los archivos del proyecto de Sistemas Embebidos
+# Espacio para los archivos del proyecto de Sistemas Embebidos
 
 ## Integrantes
 Crhistian Segura
