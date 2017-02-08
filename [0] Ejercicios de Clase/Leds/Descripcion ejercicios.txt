@@ -1,0 +1,2 @@
+NXP_Lab1
+	Enciende los  leds R/G/B alternados uno a la vez.
