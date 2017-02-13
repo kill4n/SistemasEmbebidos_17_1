@@ -2,8 +2,13 @@
 
 ## Integrantes
 Crhistian Segura
+
 Camilo Romero
+
 Paula Ducuara
+
 Danny Sepulveda
+
 Luis Quibano
+
 Miguel Aroca
