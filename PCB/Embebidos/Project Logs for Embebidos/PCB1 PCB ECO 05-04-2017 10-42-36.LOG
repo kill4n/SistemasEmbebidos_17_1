@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=RST Pin=P3-3
+Removed Pin From Net: NetName=TEST Pin=P3-4
+Added Pin To Net: NetName=TEST Pin=P3-3
+Added Pin To Net: NetName=RST Pin=P3-4
+Added Member To Class: ClassName=Embebidos Member=Component P8 ESP8266
+Added Room: Name=Embebidos
