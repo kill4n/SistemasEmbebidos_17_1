@@ -1,0 +1,17 @@
+AT+CWJAP="embebidos","raspberry"
+
+AT+CIPSTART="TCP","192.168.42.1",80
+AT+CIPSEND=45
+GET htp://192.168.42.1/recibir2.php?temp=12
+AT+CIPCLOSE
+
+AT+CIPSTART="TCP","192.168.42.1",80
+AT+CIPSEND=91
+GET htp://192.168.42.1/recibir_datos.php?mod=7&temp=xxx&hum_s=xx&hum_a=xxx&pres=xx&lum=12
+
+mod=numero modulo
+temp=valor temperatura
+hum_s=humedad suelo
+hum_a=humedad aire
+pres=presion
+lum=Luminosidad
