@@ -13,7 +13,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 
 const int sensorLUZ = A3;
-const int sensorFC = A4;
+const int sensorFC = A0;
 const int pinWifi = 11;
 BMP085<3> PSensor;         // instantiate sensor, 0 = low precision pressure reading
 //static const String getR = "GET http://186.155.238.250/recibir_datos.php?mod=2" ;
