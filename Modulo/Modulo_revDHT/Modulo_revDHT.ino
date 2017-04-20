@@ -25,57 +25,79 @@ void setup()
 {
   Serial.begin(9600);
   dht.begin();
-  Serial.println("Init Module 0");
+  Serial.println("Init Module 1");
   pinMode(P2_5,OUTPUT);
   Wire.begin();            // initialize I2C that connects to sensor
   PSensor.begin();         // initalize pressure sensor  
-  digitalWrite(pinWifi, LOW);
+  // digitalWrite(pinWifi, LOW);
 }
 
 void loop()
 {     
   ConnectWifi();
   delay(1000);
+  Serial.println("Read");
   int temp = dht.readTemperature();
   delay(1000);
   int humA = dht.readHumidity();
   delay(1000);
   int lumi = luzsensor();
   delay(1000);
-  int humS = humsensor();
+  //int humS = humsensor();
   delay(1000);
   int pres = bmpsensor();
   delay(1000);
-  //sendData((int)(t), (int)PorHumedad, (int)(h), (int)press, (int)Luz);
-  
+
   String Ptemp = String(temp); 
-  String Phums = String(humS);
   String Phuma = String(humA);
-  String Ppres = String(pres);
+
+  //String Phums = String(humS);
   String Plumi = String(lumi);
+  String Ppres = String(pres);
 
-  int size = getR.length() + 6 + Ptemp.length() + 
-    7 + Phums.length() + 7 + Phuma.length() + 6 + Ppres.length() + 5 + Plumi.length() + 2;
- 
-  Serial.print("AT+CIPSEND=");  
-  Serial.println(size);
-  delay(500);
-  Serial.print(getR);
-  Serial.print("&temp=");
-  Serial.print(Ptemp);
-  Serial.print("&hum_s=");
-  Serial.print(Phums);
-  Serial.print("&hum_a=");
-  Serial.print(Phuma); 
-  Serial.print("&pres=");
-  Serial.print(Ppres); 
-  Serial.print("&lum=");
+  Serial.print("temp=");
+  Serial.println(Ptemp);
+  Serial.print("Hum_a=");
+  Serial.println(Phuma); 
+
+  //Serial.print("Hum_s=");
+  //Serial.println(Phums);
+
+  Serial.print("luz");
   Serial.println(Plumi);
-  
-  //delay(5000);    
-  delay(5000);    
-  WDTCTL = 0x00;
 
+   Serial.print("Pres");
+   Serial.println(Ppres); 
+
+  //sendData((int)(t), (int)PorHumedad, (int)(h), (int)press, (int)Luz);
+  /* 
+   String Ptemp = String(temp); 
+   String Phums = String(humS);
+   String Phuma = String(humA);
+   String Plumi = String(lumi);
+   
+   int size = getR.length() + 6 + Ptemp.length() + 
+   7 + Phums.length() + 7 + Phuma.length() + 6 + Ppres.length() + 5 + Plumi.length() + 2;
+   
+   Serial.print("AT+CIPSEND=");  
+   Serial.println(size);
+   delay(500);
+   Serial.print(getR);
+   Serial.print("&temp=");
+   Serial.print(Ptemp);
+   Serial.print("&hum_s=");
+   Serial.print(Phums);
+   Serial.print("&hum_a=");
+   Serial.print(Phuma); 
+   Serial.print("&pres=");
+   Serial.print(Ppres); 
+   Serial.print("&lum=");
+   Serial.println(Plumi);
+   
+   //delay(5000);    
+   delay(5000);    
+   WDTCTL = 0x00;
+   */
 }
 
 void ConnectWifi()
@@ -85,7 +107,7 @@ void ConnectWifi()
   //Serial.println("AT+CWJAP=\"raspberry\",\"123456789\"");  //Connect to the raspberry pi network
   Serial.println("AT+CWJAP=\"embebidos\",\"raspberry\"");  //Connect to the raspberry pi network
   //delay(5000);
-//  Serial.println("AT+CIFSR");
+  //  Serial.println("AT+CIFSR");
   delay(5000);
   //Serial.println("AT+CIPSTART=\"TCP\",\"186.155.238.250\",8149");
   Serial.println("AT+CIPSTART=\"TCP\",\"192.168.42.1\",80");
@@ -124,4 +146,8 @@ void WifiEn()
   delay(5000);
   digitalWrite(pinWifi, LOW);
 }
+
+
+
+
 
