@@ -1,0 +1,56 @@
+<?php
+
+$MODULO=$_GET["mod"];
+
+$TEMP=$_GET["temp"];
+
+$HUMEDAD_SUELO=$_GET["hum_s"];
+
+$HUMEDAD_AIRE= $_GET["hum_a"];
+
+$PRESION= $_GET["pres"];
+
+$LUMINOCIDAD=$_GET["lum"];
+
+echo "El modulo es".$MODULO;
+echo "<br>";
+echo "La temperatura es: ".$TEMP;
+echo "<br>";
+echo "La humedad del suelo es: ".$HUMEDAD_SUELO;
+echo "<br>";
+echo "La humedad del aire es: ".$HUMEDAD_AIRE;
+echo "<br>";
+echo "La presion es: ".$PRESION;
+echo "<br>";
+echo "La luminocidad es: ".$LUMINOCIDAD;
+echo "<br>";
+//$time =  strtotime("now");
+//echo "La fecha en forasto unix es: ".$time."<br>";
+//echo "la fecha es ". date("d/m/Y h:i:s A T",$time);
+
+//MODULO
+//TEMP
+//HUMEDAD_SUELO
+//HUM_AIRE
+//PRESION
+//LUMINOCIDAD
+//FECHA
+//HORA
+
+
+echo "<br>";
+$comando = 'python guardar.py --mod="$MODULO" ';
+
+echo $comando;
+echo "<br>";
+
+$command = escapeshellcmd('ls');
+$output = shell_exec($command);
+echo $output;
+echo "<br>";
+if (exec('echo TEST') == 'TEST')
+{
+    echo 'exec works!';
+}
+
+?>
