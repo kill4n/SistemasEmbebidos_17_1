@@ -1,0 +1,1 @@
+Esta carpeta contiene los modulos finales usados en el proyecto, y las librerias asociadas a estos, se debe tener en cuenta que el archivo modulo envia datos cada minuto, mientras el archivo ModuloProm envia el promedio de datos recolectados cada 10 segundos en intervalos de 15 minutos.

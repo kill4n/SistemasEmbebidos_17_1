@@ -12,12 +12,10 @@ DHT dht(DHTPIN, DHTTYPE);
 const int sensorLUZ = A3;
 const int sensorFC = A0;
 const int pinWifi = 11;
-BMP085<3> PSensor;         // instantiate sensor, 0 = low precision pressure reading, 
+BMP085<3> PSensor;        // instantiate sensor, 0 = low precision pressure reading, 
                           //3 = highprecision pressure reading 
-                          
 //Se debe de nodificar el valor posterior a mod para dar el id del modulo.
-static const String getR = "GET http://192.168.42.1/recibir_datos.php?mod=3" ;
-
+static const String getR = "GET http://192.168.42.1/recibir_datos.php?mod=2" ;
 
 void setup()
 {
@@ -36,20 +34,38 @@ void setup()
 
 void loop()
 { 
-  digitalWrite(pinWifi, HIGH);
-  ConnectWifi();
-  delay(1000);
-  int temp = dht.readTemperature();
-  delay(1000);
-  int humA = dht.readHumidity();
-  delay(1000);
-  int lumi = luzsensor();
-  delay(1000);
-  int humS = humsensor();
-  delay(1000);
-  int pres = bmpsensor();
-  delay(1000);
+  int n = 0;
+  int temp = 0;
+  int humA = 0;
+  int lumi = 0;
+  int humS = 0;
+  int pres = 0;
   
+  while(n < 90)
+  {
+    n += 1;
+    delay(1000);
+    temp += dht.readTemperature();
+    delay(1000);
+    humA += dht.readHumidity();
+    delay(1000);
+    lumi = luzsensor();
+    delay(1000);
+    humS += humsensor();
+    delay(1000);
+    pres += bmpsensor();
+    delay(5000);
+  }
+  temp = temp/n;
+  humA = humA/n;
+  lumi = lumi/n;
+  humS = humS/n;
+  pres = pres/n;
+  
+  n = 0;
+  delay(2000);
+  ConnectWifi();
+
   String Ptemp = String(temp); 
   String Phums = String(humS);
   String Phuma = String(humA);
@@ -58,10 +74,10 @@ void loop()
 
   int size = getR.length() + 6 + Ptemp.length() + 
     7 + Phums.length() + 7 + Phuma.length() + 6 + Ppres.length() + 5 + Plumi.length() + 2;
- 
+
   Serial.print("AT+CIPSEND=");  
   Serial.println(size);
-  delay(500);
+  delay(1000);
   Serial.print(getR);
   Serial.print("&temp=");
   Serial.print(Ptemp);
@@ -74,9 +90,10 @@ void loop()
   Serial.print("&lum=");
   Serial.println(Plumi);
   delay(3000);
-  
+
   digitalWrite(pinWifi, LOW);  
-  delay(60000);    
+  delay(5000);    
+
 }
 
 void ConnectWifi()
@@ -88,7 +105,7 @@ void ConnectWifi()
   Serial.println("AT+CIFSR");
   delay(5000);
   Serial.println("AT+CIPSTART=\"TCP\",\"192.168.42.1\",80");
-
+  delay(5000);
 }
 
 int luzsensor()
@@ -111,3 +128,4 @@ int bmpsensor()
   PSensor.calculate();
   return int((PSensor.pressure+50)/100);
 }
+

@@ -1,4 +1,4 @@
-/* DHT library 
+/* DHT library
 
 MIT license
 written by Adafruit Industries
@@ -20,56 +20,30 @@ void DHT::begin(void) {
 }
 
 //boolean S == Scale.  True == Farenheit; False == Celcius
-float DHT::readTemperature(bool S) {
+float DHT::readTemperature() {
   float f;
 
   if (read()) {
-    switch (_type) {
-    case DHT11:
       f = data[2];
-      if(S)
-      	f = convertCtoF(f);
-      	
-      return f;
-    case DHT22:
-    case DHT21:
-      f = data[2] & 0x7F;
-      f *= 256;
-      f += data[3];
-      f /= 10;
-      if (data[2] & 0x80)
-	f *= -1;
-      if(S)
-	f = convertCtoF(f);
+
 
       return f;
-    }
   }
-  Serial.print("Read fail T");
+  //Serial.println("Read fail Temp");
   return 0;
 }
 
 float DHT::convertCtoF(float c) {
-	return c * 9 / 5 + 32;
+    return c * 9 / 5 + 32;
 }
 
 float DHT::readHumidity(void) {
   float f;
   if (read()) {
-    switch (_type) {
-    case DHT11:
       f = data[0];
       return f;
-    case DHT22:
-    case DHT21:
-      f = data[0];
-      f *= 256;
-      f += data[1];
-      f /= 10;
-      return f;
-    }
   }
-  Serial.print("Read fail H");
+  //Serial.println("Read fail Hum");
   return 0;
 }
 
@@ -77,13 +51,13 @@ float DHT::readHumidity(void) {
 boolean DHT::read(void) {
   uint8_t laststate = HIGH;
   uint8_t counter = 0;
-  uint8_t j = 0, i;
-  unsigned long currenttime;
+  uint8_t j = 0, i = 0;
+  unsigned long currenttime = 0;
 
   // pull the pin high and wait 250 milliseconds
   digitalWrite(_pin, HIGH);
   delay(250);
-
+  /*
   currenttime = millis();
   if (currenttime < _lastreadtime) {
     // ie there was a rollover
@@ -92,8 +66,8 @@ boolean DHT::read(void) {
   if (!firstreading && ((currenttime - _lastreadtime) < 2000)) {
     return true; // return last correct measurement
     //delay(2000 - (currenttime - _lastreadtime));
-  }
-  firstreading = false;
+  }         * /
+  firstreading = true;
   /*
     Serial.print("Currtime: "); Serial.print(currenttime);
     Serial.print(" Lasttime: "); Serial.print(_lastreadtime);
@@ -101,7 +75,7 @@ boolean DHT::read(void) {
   _lastreadtime = millis();
 
   data[0] = data[1] = data[2] = data[3] = data[4] = 0;
-  
+
   // now pull it low for ~20 milliseconds
   pinMode(_pin, OUTPUT);
   digitalWrite(_pin, LOW);
@@ -137,8 +111,8 @@ boolean DHT::read(void) {
   }
 
  interrupts();
-  
-  /*
+
+      /*
   Serial.println(j, DEC);
   Serial.print(data[0], HEX); Serial.print(", ");
   Serial.print(data[1], HEX); Serial.print(", ");
@@ -146,14 +120,14 @@ boolean DHT::read(void) {
   Serial.print(data[3], HEX); Serial.print(", ");
   Serial.print(data[4], HEX); Serial.print(" =? ");
   Serial.println(data[0] + data[1] + data[2] + data[3], HEX);
-  */
+        */
 
   // check we read 40 bits and that the checksum matches
-  if ((j >= 40) && 
+  if ((j >= 40) &&
       (data[4] == ((data[0] + data[1] + data[2] + data[3]) & 0xFF)) ) {
     return true;
   }
-  
+
 
   return false;
 
