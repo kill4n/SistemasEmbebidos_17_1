@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/master/src/main.cpp
+iostream
+-
+

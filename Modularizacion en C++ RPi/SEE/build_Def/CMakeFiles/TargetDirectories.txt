@@ -1,0 +1,13 @@
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/edit_cache.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/rebuild_cache.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/master/CMakeFiles/master.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/master/CMakeFiles/edit_cache.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/master/CMakeFiles/rebuild_cache.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/CMakeFiles/edit_cache.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/CMakeFiles/rebuild_cache.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/CMakeFiles/socket_aux.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/CMakeFiles/edit_cache.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/CMakeFiles/rebuild_cache.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/thread_aux/CMakeFiles/edit_cache.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/thread_aux/CMakeFiles/thread_aux.dir
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/thread_aux/CMakeFiles/rebuild_cache.dir

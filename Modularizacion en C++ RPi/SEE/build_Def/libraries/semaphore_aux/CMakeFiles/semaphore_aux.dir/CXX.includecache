@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libraries/semaphore_aux/include/mysemaphore.h
+sys/ipc.h
+-
+sys/sem.h
+-
+stdio.h
+-
+iostream
+-
+
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/semaphore_aux/src/mysemaphore.cpp
+mysemaphore.h
+C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/semaphore_aux/src/mysemaphore.h
+

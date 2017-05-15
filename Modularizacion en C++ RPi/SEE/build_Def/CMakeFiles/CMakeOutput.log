@@ -1,0 +1,754 @@
+The system is: Windows - 10.0.15063 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/3.8.1/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/3.8.1/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_e7069/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_e7069.dir\build.make CMakeFiles/cmTC_e7069.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7069.dir/testCCompiler.c.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe    -o CMakeFiles\cmTC_e7069.dir\testCCompiler.c.obj   -c "C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\Modularizacion en C++ RPi\SEE\build_Def\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_e7069.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e7069.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e7069.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_e7069.dir/objects.a @CMakeFiles\cmTC_e7069.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_e7069.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e7069.exe -Wl,--out-implib,libcmTC_e7069.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e7069.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_09dde/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_09dde.dir\build.make CMakeFiles/cmTC_09dde.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09dde.dir/CMakeCCompilerABI.c.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe    -o CMakeFiles\cmTC_09dde.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_09dde.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_09dde.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_09dde.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_09dde.dir/objects.a @CMakeFiles\cmTC_09dde.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_09dde.dir/objects.a -Wl,--no-whole-archive  -o cmTC_09dde.exe -Wl,--out-implib,libcmTC_09dde.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-5.3.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/include -I/c/mingw530/prerequisites/i686-zlib-static/include -I/c/mingw530/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/include -I/c/mingw530/prerequisites/i686-zlib-static/include -I/c/mingw530/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/lib -L/c/mingw530/prerequisites/i686-zlib-static/lib -L/c/mingw530/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 5.3.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_09dde.exe' '-mtune=generic' '-march=i686'
+ C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/collect2.exe -plugin C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/liblto_plugin-0.dll -plugin-opt=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CRHIST~1\AppData\Local\Temp\cclugZzD.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_09dde.exe C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtbegin.o -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0 -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../.. --whole-archive CMakeFiles\cmTC_09dde.dir/objects.a --no-whole-archive --out-implib libcmTC_09dde.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_09dde/fast"]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_09dde.dir\build.make CMakeFiles/cmTC_09dde.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_09dde.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe    -o CMakeFiles\cmTC_09dde.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_09dde.exe]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_09dde.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_09dde.dir/objects.a]
+  ignore line: [C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_09dde.dir/objects.a @CMakeFiles\cmTC_09dde.dir\objects1.rsp]
+  ignore line: [C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_09dde.dir/objects.a -Wl,--no-whole-archive  -o cmTC_09dde.exe -Wl,--out-implib,libcmTC_09dde.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-5.3.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/include -I/c/mingw530/prerequisites/i686-zlib-static/include -I/c/mingw530/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/include -I/c/mingw530/prerequisites/i686-zlib-static/include -I/c/mingw530/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/lib -L/c/mingw530/prerequisites/i686-zlib-static/lib -L/c/mingw530/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.3.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_09dde.exe' '-mtune=generic' '-march=i686']
+  link line: [ C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/collect2.exe -plugin C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/liblto_plugin-0.dll -plugin-opt=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CRHIST~1\AppData\Local\Temp\cclugZzD.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32 -m i386pe -Bdynamic -o cmTC_09dde.exe C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtbegin.o -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0 -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../.. --whole-archive CMakeFiles\cmTC_09dde.dir/objects.a --no-whole-archive --out-implib libcmTC_09dde.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtend.o]
+    arg [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\CRHIST~1\AppData\Local\Temp\cclugZzD.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_09dde.exe] ==> ignore
+    arg [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtbegin.o] ==> ignore
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0]
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc]
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib]
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib]
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../..] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_09dde.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_09dde.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/lib]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../..] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0;C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc;C:/Qt/Qt5.8.0/Tools/mingw530_32/i686-w64-mingw32/lib;C:/Qt/Qt5.8.0/Tools/mingw530_32/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_a168b/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_a168b.dir\build.make CMakeFiles/cmTC_a168b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a168b.dir/feature_tests.c.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_a168b.dir\feature_tests.c.obj   -c "C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\Modularizacion en C++ RPi\SEE\build_Def\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_a168b.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a168b.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a168b.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_a168b.dir/objects.a @CMakeFiles\cmTC_a168b.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a168b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a168b.exe -Wl,--out-implib,libcmTC_a168b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a168b.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_30b01/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_30b01.dir\build.make CMakeFiles/cmTC_30b01.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30b01.dir/feature_tests.c.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_30b01.dir\feature_tests.c.obj   -c "C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\Modularizacion en C++ RPi\SEE\build_Def\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_30b01.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_30b01.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_30b01.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_30b01.dir/objects.a @CMakeFiles\cmTC_30b01.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_30b01.dir/objects.a -Wl,--no-whole-archive  -o cmTC_30b01.exe -Wl,--out-implib,libcmTC_30b01.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_30b01.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_dd61c/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_dd61c.dir\build.make CMakeFiles/cmTC_dd61c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd61c.dir/feature_tests.c.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_dd61c.dir\feature_tests.c.obj   -c "C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\Modularizacion en C++ RPi\SEE\build_Def\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_dd61c.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_dd61c.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_dd61c.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_dd61c.dir/objects.a @CMakeFiles\cmTC_dd61c.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_dd61c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_dd61c.exe -Wl,--out-implib,libcmTC_dd61c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_dd61c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_23961/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_23961.dir\build.make CMakeFiles/cmTC_23961.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23961.dir/testCXXCompiler.cxx.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe     -o CMakeFiles\cmTC_23961.dir\testCXXCompiler.cxx.obj -c "C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\Modularizacion en C++ RPi\SEE\build_Def\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_23961.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_23961.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_23961.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_23961.dir/objects.a @CMakeFiles\cmTC_23961.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_23961.dir/objects.a -Wl,--no-whole-archive  -o cmTC_23961.exe -Wl,--out-implib,libcmTC_23961.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_23961.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_7a261/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_7a261.dir\build.make CMakeFiles/cmTC_7a261.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7a261.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe     -o CMakeFiles\cmTC_7a261.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_7a261.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7a261.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7a261.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_7a261.dir/objects.a @CMakeFiles\cmTC_7a261.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_7a261.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7a261.exe -Wl,--out-implib,libcmTC_7a261.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe
+COLLECT_LTO_WRAPPER=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe
+Target: i686-w64-mingw32
+Configured with: ../../../src/gcc-5.3.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/include -I/c/mingw530/prerequisites/i686-zlib-static/include -I/c/mingw530/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/include -I/c/mingw530/prerequisites/i686-zlib-static/include -I/c/mingw530/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/lib -L/c/mingw530/prerequisites/i686-zlib-static/lib -L/c/mingw530/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware'
+Thread model: posix
+gcc version 5.3.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) 
+COMPILER_PATH=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/bin/
+LIBRARY_PATH=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/;C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7a261.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/collect2.exe -plugin C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/liblto_plugin-0.dll -plugin-opt=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CRHIST~1\AppData\Local\Temp\cceZ7Lkp.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_7a261.exe C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtbegin.o -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0 -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../.. --whole-archive CMakeFiles\cmTC_7a261.dir/objects.a --no-whole-archive --out-implib libcmTC_7a261.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_7a261/fast"]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_7a261.dir\build.make CMakeFiles/cmTC_7a261.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7a261.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe     -o CMakeFiles\cmTC_7a261.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_7a261.exe]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7a261.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7a261.dir/objects.a]
+  ignore line: [C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_7a261.dir/objects.a @CMakeFiles\cmTC_7a261.dir\objects1.rsp]
+  ignore line: [C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_7a261.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7a261.exe -Wl,--out-implib,libcmTC_7a261.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe]
+  ignore line: [Target: i686-w64-mingw32]
+  ignore line: [Configured with: ../../../src/gcc-5.3.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32 --with-gxx-include-dir=/mingw32/i686-w64-mingw32/include/c++ --enable-shared --enable-static --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=posix --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-fully-dynamic-string --enable-version-specific-runtime-libs --disable-sjlj-exceptions --with-dwarf2 --disable-isl-version-check --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-mpc=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-isl=/c/mingw530/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-posix-dwarf-rev0, Built by MinGW-W64 project' --with-bugurl=http://sourceforge.net/projects/mingw-w64 CFLAGS='-O2 -pipe -I/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/include -I/c/mingw530/prerequisites/i686-zlib-static/include -I/c/mingw530/prerequisites/i686-w64-mingw32-static/include' CXXFLAGS='-O2 -pipe -I/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/include -I/c/mingw530/prerequisites/i686-zlib-static/include -I/c/mingw530/prerequisites/i686-w64-mingw32-static/include' CPPFLAGS= LDFLAGS='-pipe -L/c/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32/opt/lib -L/c/mingw530/prerequisites/i686-zlib-static/lib -L/c/mingw530/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.3.0 (i686-posix-dwarf-rev0, Built by MinGW-W64 project) ]
+  ignore line: [COMPILER_PATH=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/]
+  ignore line: [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7a261.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/collect2.exe -plugin C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/liblto_plugin-0.dll -plugin-opt=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\CRHIST~1\AppData\Local\Temp\cceZ7Lkp.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_7a261.exe C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtbegin.o -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0 -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib -LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../.. --whole-archive CMakeFiles\cmTC_7a261.dir/objects.a --no-whole-archive --out-implib libcmTC_7a261.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtend.o]
+    arg [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../libexec/gcc/i686-w64-mingw32/5.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\CRHIST~1\AppData\Local\Temp\cceZ7Lkp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [--sysroot=C:/mingw530/i686-530-posix-dwarf-rt_v4-rev0/mingw32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pe] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7a261.exe] ==> ignore
+    arg [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtbegin.o] ==> ignore
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0]
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc]
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib]
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib]
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib]
+    arg [-LC:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../..] ==> dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_7a261.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_7a261.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib/../lib] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../lib] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/lib]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/lib] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/i686-w64-mingw32/lib]
+  collapse library dir [C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../..] ==> [C:/Qt/Qt5.8.0/Tools/mingw530_32/lib]
+  implicit libs: [stdc++;mingw32;moldname;mingwex;msvcrt;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0;C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc;C:/Qt/Qt5.8.0/Tools/mingw530_32/i686-w64-mingw32/lib;C:/Qt/Qt5.8.0/Tools/mingw530_32/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_6e22c/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_6e22c.dir\build.make CMakeFiles/cmTC_6e22c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6e22c.dir/feature_tests.cxx.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe    -std=c++1z -o CMakeFiles\cmTC_6e22c.dir\feature_tests.cxx.obj -c "C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\Modularizacion en C++ RPi\SEE\build_Def\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_6e22c.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6e22c.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_6e22c.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_6e22c.dir/objects.a @CMakeFiles\cmTC_6e22c.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_6e22c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6e22c.exe -Wl,--out-implib,libcmTC_6e22c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6e22c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_89765/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_89765.dir\build.make CMakeFiles/cmTC_89765.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_89765.dir/feature_tests.cxx.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_89765.dir\feature_tests.cxx.obj -c "C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\Modularizacion en C++ RPi\SEE\build_Def\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_89765.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_89765.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_89765.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_89765.dir/objects.a @CMakeFiles\cmTC_89765.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_89765.dir/objects.a -Wl,--no-whole-archive  -o cmTC_89765.exe -Wl,--out-implib,libcmTC_89765.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_89765.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_c916a/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_c916a.dir\build.make CMakeFiles/cmTC_c916a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c916a.dir/feature_tests.cxx.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_c916a.dir\feature_tests.cxx.obj -c "C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\Modularizacion en C++ RPi\SEE\build_Def\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_c916a.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c916a.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c916a.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_c916a.dir/objects.a @CMakeFiles\cmTC_c916a.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_c916a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c916a.exe -Wl,--out-implib,libcmTC_c916a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c916a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_35567/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_35567.dir\build.make CMakeFiles/cmTC_35567.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35567.dir/feature_tests.cxx.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_35567.dir\feature_tests.cxx.obj -c "C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\Modularizacion en C++ RPi\SEE\build_Def\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_35567.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_35567.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_35567.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_35567.dir/objects.a @CMakeFiles\cmTC_35567.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_35567.dir/objects.a -Wl,--no-whole-archive  -o cmTC_35567.exe -Wl,--out-implib,libcmTC_35567.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_35567.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_5cd40/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_5cd40.dir\build.make CMakeFiles/cmTC_5cd40.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cd40.dir/CheckIncludeFile.c.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe    -o CMakeFiles\cmTC_5cd40.dir\CheckIncludeFile.c.obj   -c "C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\Modularizacion en C++ RPi\SEE\build_Def\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Linking C executable cmTC_5cd40.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5cd40.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_5cd40.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_5cd40.dir/objects.a @CMakeFiles\cmTC_5cd40.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_5cd40.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5cd40.exe -Wl,--out-implib,libcmTC_5cd40.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5cd40.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe" "cmTC_f7077/fast"
+C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f CMakeFiles\cmTC_f7077.dir\build.make CMakeFiles/cmTC_f7077.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7077.dir/CheckSymbolExists.c.obj
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe    -o CMakeFiles\cmTC_f7077.dir\CheckSymbolExists.c.obj   -c "C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\Modularizacion en C++ RPi\SEE\build_Def\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+Linking C executable cmTC_f7077.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f7077.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f7077.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\cmTC_f7077.dir/objects.a @CMakeFiles\cmTC_f7077.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_f7077.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f7077.exe -Wl,--out-implib,libcmTC_f7077.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f7077.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp'
+
+File C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
