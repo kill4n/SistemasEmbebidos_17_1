@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="camController" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\camControllers\;CMake Files\camControllers\faceCamera\;CMake Files\camControllers\moveCamera\;CMake Files\master\;CMake Files\ucSecurity\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/killan/QtProjects/SEE/build_Linux/camControllers" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="faceCamera">
+         <Option output="/home/killan/QtProjects/SEE/build_Linux/libfaceCamera.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/killan/QtProjects/SEE/build_Linux/camControllers/faceCamera" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/killan/QtProjects/SEE" />
+            <Add directory="/home/killan/QtProjects/SEE/camControllers/faceCamera/include" />
+            <Add directory="/home/killan/QtProjects/SEE/camControllers/faceCamera/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/faceCamera/Makefile&quot;  VERBOSE=1 faceCamera" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/faceCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/faceCamera/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/faceCamera/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="faceCamera/fast">
+         <Option output="/home/killan/QtProjects/SEE/build_Linux/libfaceCamera.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/killan/QtProjects/SEE/build_Linux/camControllers/faceCamera" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/killan/QtProjects/SEE" />
+            <Add directory="/home/killan/QtProjects/SEE/camControllers/faceCamera/include" />
+            <Add directory="/home/killan/QtProjects/SEE/camControllers/faceCamera/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/faceCamera/Makefile&quot;  VERBOSE=1 faceCamera/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/faceCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/faceCamera/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/faceCamera/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="moveCamera">
+         <Option output="/home/killan/QtProjects/SEE/build_Linux/libmoveCamera.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/killan/QtProjects/SEE/build_Linux/camControllers/moveCamera" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/killan/QtProjects/SEE" />
+            <Add directory="/home/killan/QtProjects/SEE/camControllers/moveCamera/include" />
+            <Add directory="/home/killan/QtProjects/SEE/camControllers/moveCamera/src" />
+            <Add directory="/home/killan/QtProjects/SEE/libraries" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/moveCamera/Makefile&quot;  VERBOSE=1 moveCamera" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/moveCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/moveCamera/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/moveCamera/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="moveCamera/fast">
+         <Option output="/home/killan/QtProjects/SEE/build_Linux/libmoveCamera.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/killan/QtProjects/SEE/build_Linux/camControllers/moveCamera" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/killan/QtProjects/SEE" />
+            <Add directory="/home/killan/QtProjects/SEE/camControllers/moveCamera/include" />
+            <Add directory="/home/killan/QtProjects/SEE/camControllers/moveCamera/src" />
+            <Add directory="/home/killan/QtProjects/SEE/libraries" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/moveCamera/Makefile&quot;  VERBOSE=1 moveCamera/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/moveCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/moveCamera/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/killan/QtProjects/SEE/build_Linux/camControllers/moveCamera/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/faceCamera/include/mysemaphore.h">
+         <Option target="faceCamera"/>
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/faceCamera/src/mysemaphore.cpp">
+         <Option target="faceCamera"/>
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/moveCamera/include/mysocket.h">
+         <Option target="moveCamera"/>
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/moveCamera/src/mysocket.cpp">
+         <Option target="moveCamera"/>
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\camControllers\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\camControllers\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/faceCamera/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\camControllers\faceCamera\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/faceCamera/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\camControllers\faceCamera\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/faceCamera/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\camControllers\faceCamera\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/moveCamera/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\camControllers\moveCamera\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/moveCamera/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\camControllers\moveCamera\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/camControllers/moveCamera/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\camControllers\moveCamera\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/master/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\master\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/master/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\master\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/ucSecurity/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\ucSecurity\" />
+      </Unit>
+      <Unit filename="/home/killan/QtProjects/SEE/ucSecurity/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\ucSecurity\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

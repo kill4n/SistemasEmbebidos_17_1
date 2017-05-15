@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/ucSecurity.dir/src/main.cpp.o  -o ../Deploy/ucSecurity -rdynamic 

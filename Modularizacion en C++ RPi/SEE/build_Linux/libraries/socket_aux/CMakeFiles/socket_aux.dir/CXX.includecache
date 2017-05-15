@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//libraries/thread_aux/include/mythread.h
+pthread.h
+-
+
+../libraries/socket_aux/include/mysocket.h
+string.h
+-
+stdio.h
+-
+iomanip
+-
+iostream
+-
+unistd.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+libraries/thread_aux/include/mythread.h
+../libraries/socket_aux/include/libraries/thread_aux/include/mythread.h
+
+/home/killan/QtProjects/SEE/libraries/socket_aux/src/mysocket.cpp
+mysocket.h
+/home/killan/QtProjects/SEE/libraries/socket_aux/src/mysocket.h
+

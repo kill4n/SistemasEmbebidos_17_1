@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libsocket_aux.so -o ../../libsocket_aux.so CMakeFiles/socket_aux.dir/src/mysocket.cpp.o -lthread_aux -lpthread 

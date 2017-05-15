@@ -1,0 +1,20 @@
+Descripcion de los programas del proyecto para SEE
+
+-master			Programa encargado de controlar todo
+	scheduler	Controla todo
+	diagnostics	modulo de diagnostico
+-ucSecurity
+	Programa que se comunica con el uc de puertas y ventanas 
+-libraries
+	Comunicacion serial
+	TCP/IP(socket)
+	Threads
+	Semaforos
+-pyRunner		Programa que permite correr scripts de python y temporizarlos
+	Script update remote (cada 3 horas)
+-gsmController
+	Progrma que se comuinica con el citofono (TCP/IP, eventos)
+-camControllers		Programas para el control de las camaras
+	faceCamera	Camara que reconoce rostros
+	moveCamera	Camara que detecta movimientos
+-

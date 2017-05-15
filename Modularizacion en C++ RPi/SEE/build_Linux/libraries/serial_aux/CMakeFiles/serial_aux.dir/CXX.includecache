@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libraries/serial_aux/include/mysemaphore.h
+sys/ipc.h
+-
+sys/sem.h
+-
+stdio.h
+-
+iostream
+-
+
+/home/killan/QtProjects/SEE/libraries/serial_aux/src/mysemaphore.cpp
+mysemaphore.h
+/home/killan/QtProjects/SEE/libraries/serial_aux/src/mysemaphore.h
+
