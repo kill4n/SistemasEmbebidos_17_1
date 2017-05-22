@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     mLog.writeLog(&a,"Start app");
 
     StatusClass mStatus(dem, &mLog);
-    PyRunClass mPyRun(dem, &mLog,"/home/pi/python/pyMongo.py");
+    PyRunClass mPyRun(dem, &mLog);
     SerialClass mSerial(dem, &mLog);
     TCPClass mTCP(dem, &mLog);
 

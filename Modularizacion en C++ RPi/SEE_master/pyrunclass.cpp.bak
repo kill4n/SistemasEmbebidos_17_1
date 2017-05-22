@@ -1,7 +1,6 @@
 #include "pyrunclass.h"
 
-PyRunClass::PyRunClass(unsigned long seg, LogClass *myLog, QString path):
-    _path(path)
+PyRunClass::PyRunClass(unsigned long seg, LogClass *myLog)
 {
     this->setObjectName("PyRunner");
     interval = seg;
@@ -30,10 +29,6 @@ void PyRunClass::run()
         }
         this->mutex.unlock();
         sleep(interval);
-        //Correr script de python
-        std::string command = "python ";
-        command += _path.toUtf8().constData();
-        system(command.c_str());
     }
     mLog->writeLog(this, "Fin modulo "+ this->objectName());
 }
