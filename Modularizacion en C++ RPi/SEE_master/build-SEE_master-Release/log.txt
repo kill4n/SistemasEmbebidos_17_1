@@ -1,0 +1,334 @@
+[Mon May 22 13:34:06 2017]Log...: Archivo de logs guardado en ./log.txt
+[Mon May 22 13:34:06 2017]Status: Creacion modulo Status
+[Mon May 22 13:34:06 2017]Serial: Creacion modulo Serial
+[Mon May 22 13:34:06 2017]TCP: Creacion modulo TCP
+[Mon May 22 13:34:11 2017]Status: Inicio modulo Status
+[Mon May 22 13:34:11 2017]PyRunner: Inicio modulo PyRunner
+[Mon May 22 13:34:11 2017]Serial: Inicio modulo Serial
+[Mon May 22 13:34:11 2017]TCP: Inicio modulo TCP
+[Mon May 22 13:34:11 2017]Status: Status is Alive: 0
+[Mon May 22 13:34:11 2017]PyRunner: PyRunner is Alive: 0
+[Mon May 22 13:34:11 2017]Serial: Serial is Alive: 0
+[Mon May 22 13:34:11 2017]TCP: TCP is Alive: 0
+[Mon May 22 13:34:12 2017]Status: Status is Alive: 1
+[Mon May 22 13:34:13 2017]PyRunner: PyRunner is Alive: 1
+[Mon May 22 13:34:13 2017]Serial: Serial is Alive: 1
+[Mon May 22 13:34:13 2017]TCP: TCP is Alive: 1
+[Mon May 22 13:34:14 2017]Status: Status is Alive: 2
+[Mon May 22 13:34:14 2017]PyRunner: PyRunner is Alive: 2
+[Mon May 22 13:34:14 2017]Serial: Serial is Alive: 2
+[Mon May 22 13:34:14 2017]TCP: TCP is Alive: 2
+[Mon May 22 13:34:15 2017]Status: Status is Alive: 3
+[Mon May 22 13:34:15 2017]Serial: Serial is Alive: 3
+[Mon May 22 13:34:15 2017]Serial: Serial is Alive: 3
+[Mon May 22 13:34:15 2017]PyRunner: PyRunner is Alive: 3
+[Mon May 22 13:34:15 2017]TCP: TCP is Alive: 3
+[Mon May 22 13:34:16 2017]Status: Status is Alive: 4
+[Mon May 22 13:34:16 2017]Serial: Serial is Alive: 4
+[Mon May 22 13:34:16 2017]PyRunner: PyRunner is Alive: 4
+[Mon May 22 13:34:16 2017]TCP: TCP is Alive: 4
+[Mon May 22 13:34:16 2017]PyRunner: PyRunner is Alive: 4
+[Mon May 22 13:34:16 2017]TCP: TCP is Alive: 4
+[Mon May 22 13:34:17 2017]Status: Status is Alive: 5
+[Mon May 22 13:34:17 2017]Serial: Serial is Alive: 5
+[Mon May 22 13:34:17 2017]PyRunner: PyRunner is Alive: 5
+[Mon May 22 13:34:17 2017]TCP: TCP is Alive: 5
+[Mon May 22 13:34:18 2017]Status: Status is Alive: 6
+[Mon May 22 13:34:18 2017]Status: Status is Alive: 6
+[Mon May 22 13:34:18 2017]Serial: Serial is Alive: 6
+[Mon May 22 13:34:18 2017]PyRunner: PyRunner is Alive: 6
+[Mon May 22 13:34:18 2017]TCP: TCP is Alive: 6
+[Mon May 22 13:34:19 2017]Status: Status is Alive: 7
+[Mon May 22 13:34:19 2017]PyRunner: PyRunner is Alive: 7
+[Mon May 22 13:34:19 2017]TCP: TCP is Alive: 7
+[Mon May 22 13:34:19 2017]TCP: TCP is Alive: 7
+[Mon May 22 13:34:19 2017]Serial: Serial is Alive: 7
+[Mon May 22 13:34:20 2017]Status: Status is Alive: 8
+[Mon May 22 13:34:20 2017]TCP: TCP is Alive: 8
+[Mon May 22 13:34:20 2017]Serial: Serial is Alive: 8
+[Mon May 22 13:34:20 2017]Serial: Serial is Alive: 8
+[Mon May 22 13:34:20 2017]PyRunner: PyRunner is Alive: 8
+[Mon May 22 13:34:21 2017]Status: Status is Alive: 9
+[Mon May 22 13:34:21 2017]Serial: Serial is Alive: 9
+[Mon May 22 13:34:21 2017]TCP: TCP is Alive: 9
+[Mon May 22 13:34:21 2017]TCP: TCP is Alive: 9
+[Mon May 22 13:34:21 2017]PyRunner: PyRunner is Alive: 9
+[Mon May 22 13:34:22 2017]Status: Fin modulo Status
+[Mon May 22 13:34:22 2017]Serial: Fin modulo Serial
+[Mon May 22 13:34:22 2017]TCP: Fin modulo TCP
+[Mon May 22 13:34:22 2017]PyRunner: Fin modulo PyRunner
+[Mon May 22 13:36:16 2017]Log...: Archivo de logs guardado en ./log.txt
+[Mon May 22 13:36:16 2017]Main: Start app
+[Mon May 22 13:36:16 2017]Status: Creacion modulo Status
+[Mon May 22 13:36:16 2017]Serial: Creacion modulo Serial
+[Mon May 22 13:36:16 2017]TCP: Creacion modulo TCP
+[Mon May 22 13:36:21 2017]Main: Finish app
+[Mon May 22 13:36:21 2017]Status: Inicio modulo Status
+[Mon May 22 13:36:21 2017]PyRunner: Inicio modulo PyRunner
+[Mon May 22 13:36:21 2017]Serial: Inicio modulo Serial
+[Mon May 22 13:36:21 2017]TCP: Inicio modulo TCP
+[Mon May 22 13:36:21 2017]Status: Status is Alive: 0
+[Mon May 22 13:36:21 2017]PyRunner: PyRunner is Alive: 0
+[Mon May 22 13:36:21 2017]Serial: Serial is Alive: 0
+[Mon May 22 13:36:21 2017]TCP: TCP is Alive: 0
+[Mon May 22 13:36:22 2017]Status: Status is Alive: 1
+[Mon May 22 13:36:22 2017]PyRunner: PyRunner is Alive: 1
+[Mon May 22 13:36:22 2017]Serial: Serial is Alive: 1
+[Mon May 22 13:36:22 2017]TCP: TCP is Alive: 1
+[Mon May 22 13:36:23 2017]Status: Status is Alive: 2
+[Mon May 22 13:36:23 2017]PyRunner: PyRunner is Alive: 2
+[Mon May 22 13:36:23 2017]Serial: Serial is Alive: 2
+[Mon May 22 13:36:23 2017]TCP: TCP is Alive: 2
+[Mon May 22 13:36:24 2017]Status: Status is Alive: 3
+[Mon May 22 13:36:24 2017]Serial: Serial is Alive: 3
+[Mon May 22 13:36:24 2017]Serial: Serial is Alive: 3
+[Mon May 22 13:36:24 2017]PyRunner: PyRunner is Alive: 3
+[Mon May 22 13:36:24 2017]TCP: TCP is Alive: 3
+[Mon May 22 13:36:25 2017]Status: Status is Alive: 4
+[Mon May 22 13:36:25 2017]Serial: Serial is Alive: 4
+[Mon May 22 13:36:25 2017]PyRunner: PyRunner is Alive: 4
+[Mon May 22 13:36:25 2017]TCP: TCP is Alive: 4
+[Mon May 22 13:36:26 2017]Status: Status is Alive: 5
+[Mon May 22 13:36:26 2017]Serial: Serial is Alive: 5
+[Mon May 22 13:36:26 2017]PyRunner: PyRunner is Alive: 5
+[Mon May 22 13:36:26 2017]TCP: TCP is Alive: 5
+[Mon May 22 13:36:27 2017]Status: Status is Alive: 6
+[Mon May 22 13:36:27 2017]Serial: Serial is Alive: 6
+[Mon May 22 13:36:27 2017]PyRunner: PyRunner is Alive: 6
+[Mon May 22 13:36:27 2017]TCP: TCP is Alive: 6
+[Mon May 22 13:36:28 2017]Status: Status is Alive: 7
+[Mon May 22 13:36:28 2017]Serial: Serial is Alive: 7
+[Mon May 22 13:36:28 2017]PyRunner: PyRunner is Alive: 7
+[Mon May 22 13:36:28 2017]TCP: TCP is Alive: 7
+[Mon May 22 13:36:29 2017]Status: Status is Alive: 8
+[Mon May 22 13:36:29 2017]Serial: Serial is Alive: 8
+[Mon May 22 13:36:29 2017]PyRunner: PyRunner is Alive: 8
+[Mon May 22 13:36:29 2017]TCP: TCP is Alive: 8
+[Mon May 22 13:36:30 2017]Status: Status is Alive: 9
+[Mon May 22 13:36:30 2017]Serial: Serial is Alive: 9
+[Mon May 22 13:36:30 2017]PyRunner: PyRunner is Alive: 9
+[Mon May 22 13:36:30 2017]PyRunner: PyRunner is Alive: 9
+[Mon May 22 13:36:30 2017]TCP: TCP is Alive: 9
+[Mon May 22 13:36:31 2017]Status: Fin modulo Status
+[Mon May 22 13:36:31 2017]Serial: Fin modulo Serial
+[Mon May 22 13:36:31 2017]PyRunner: Fin modulo PyRunner
+[Mon May 22 13:36:31 2017]TCP: Fin modulo TCP
+[Mon May 22 13:37:36 2017]Log...: Archivo de logs guardado en ./log.txt
+[Mon May 22 13:37:36 2017]Main: Start app
+[Mon May 22 13:37:36 2017]Status: Creacion modulo Status
+[Mon May 22 13:37:36 2017]Serial: Creacion modulo Serial
+[Mon May 22 13:37:36 2017]TCP: Creacion modulo TCP
+[Mon May 22 13:37:41 2017]Main: Finish app
+[Mon May 22 13:37:41 2017]Status: Inicio modulo Status
+[Mon May 22 13:37:41 2017]PyRunner: Inicio modulo PyRunner
+[Mon May 22 13:37:41 2017]Serial: Inicio modulo Serial
+[Mon May 22 13:37:41 2017]TCP: Inicio modulo TCP
+[Mon May 22 13:37:41 2017]Status: Status is Alive: 0
+[Mon May 22 13:37:41 2017]PyRunner: PyRunner is Alive: 0
+[Mon May 22 13:37:41 2017]Serial: Serial is Alive: 0
+[Mon May 22 13:37:41 2017]TCP: TCP is Alive: 0
+[Mon May 22 13:37:42 2017]Status: Status is Alive: 1
+[Mon May 22 13:37:42 2017]PyRunner: PyRunner is Alive: 1
+[Mon May 22 13:37:42 2017]Serial: Serial is Alive: 1
+[Mon May 22 13:37:42 2017]TCP: TCP is Alive: 1
+[Mon May 22 13:37:43 2017]Status: Status is Alive: 2
+[Mon May 22 13:37:43 2017]PyRunner: PyRunner is Alive: 2
+[Mon May 22 13:37:43 2017]Serial: Serial is Alive: 2
+[Mon May 22 13:37:43 2017]TCP: TCP is Alive: 2
+[Mon May 22 13:37:44 2017]Status: Status is Alive: 3
+[Mon May 22 13:37:44 2017]PyRunner: PyRunner is Alive: 3
+[Mon May 22 13:37:44 2017]Serial: Serial is Alive: 3
+[Mon May 22 13:37:44 2017]TCP: TCP is Alive: 3
+[Mon May 22 13:37:45 2017]Status: Status is Alive: 4
+[Mon May 22 13:37:45 2017]PyRunner: PyRunner is Alive: 4
+[Mon May 22 13:37:45 2017]Serial: Serial is Alive: 4
+[Mon May 22 13:37:45 2017]TCP: TCP is Alive: 4
+[Mon May 22 13:37:46 2017]Status: Status is Alive: 5
+[Mon May 22 13:37:46 2017]PyRunner: PyRunner is Alive: 5
+[Mon May 22 13:37:46 2017]Serial: Serial is Alive: 5
+[Mon May 22 13:37:46 2017]TCP: TCP is Alive: 5
+[Mon May 22 13:37:47 2017]Status: Status is Alive: 6
+[Mon May 22 13:37:47 2017]PyRunner: PyRunner is Alive: 6
+[Mon May 22 13:37:47 2017]Serial: Serial is Alive: 6
+[Mon May 22 13:37:47 2017]TCP: TCP is Alive: 6
+[Mon May 22 13:37:48 2017]Status: Status is Alive: 7
+[Mon May 22 13:37:48 2017]PyRunner: PyRunner is Alive: 7
+[Mon May 22 13:37:48 2017]Serial: Serial is Alive: 7
+[Mon May 22 13:37:48 2017]TCP: TCP is Alive: 7
+[Mon May 22 13:37:49 2017]Status: Status is Alive: 8
+[Mon May 22 13:37:49 2017]PyRunner: PyRunner is Alive: 8
+[Mon May 22 13:37:49 2017]Serial: Serial is Alive: 8
+[Mon May 22 13:37:49 2017]TCP: TCP is Alive: 8
+[Mon May 22 13:37:50 2017]Status: Status is Alive: 9
+[Mon May 22 13:37:50 2017]PyRunner: PyRunner is Alive: 9
+[Mon May 22 13:37:50 2017]Serial: Serial is Alive: 9
+[Mon May 22 13:37:50 2017]TCP: TCP is Alive: 9
+[Mon May 22 13:37:51 2017]Status: Fin modulo Status
+[Mon May 22 13:37:51 2017]PyRunner: Fin modulo PyRunner
+[Mon May 22 13:37:51 2017]Serial: Fin modulo Serial
+[Mon May 22 13:37:51 2017]TCP: Fin modulo TCP
+[Mon May 22 13:44:02 2017]Log...: Archivo de logs guardado en ./log.txt
+[Mon May 22 13:44:02 2017]Main: Start app
+[Mon May 22 13:44:02 2017]Status: Creacion modulo Status
+[Mon May 22 13:44:02 2017]PyRunner: Creacion modulo PyRunner
+[Mon May 22 13:44:02 2017]Serial: Creacion modulo Serial
+[Mon May 22 13:44:02 2017]TCP: Creacion modulo TCP
+[Mon May 22 13:44:07 2017]Status: Inicio modulo Status
+[Mon May 22 13:44:07 2017]PyRunner: Inicio modulo PyRunner
+[Mon May 22 13:44:07 2017]Serial: Inicio modulo Serial
+[Mon May 22 13:44:07 2017]TCP: Inicio modulo TCP
+[Mon May 22 13:44:07 2017]Status: Status is Alive: 0
+[Mon May 22 13:44:07 2017]PyRunner: PyRunner is Alive: 0
+[Mon May 22 13:44:07 2017]Serial: Serial is Alive: 0
+[Mon May 22 13:44:07 2017]TCP: TCP is Alive: 0
+[Mon May 22 13:44:08 2017]Status: Status is Alive: 1
+[Mon May 22 13:44:08 2017]PyRunner: PyRunner is Alive: 1
+[Mon May 22 13:44:08 2017]Serial: Serial is Alive: 1
+[Mon May 22 13:44:08 2017]TCP: TCP is Alive: 1
+[Mon May 22 13:44:09 2017]Status: Status is Alive: 2
+[Mon May 22 13:44:09 2017]PyRunner: PyRunner is Alive: 2
+[Mon May 22 13:44:09 2017]Serial: Serial is Alive: 2
+[Mon May 22 13:44:09 2017]TCP: TCP is Alive: 2
+[Mon May 22 13:44:10 2017]Status: Status is Alive: 3
+[Mon May 22 13:44:10 2017]PyRunner: PyRunner is Alive: 3
+[Mon May 22 13:44:10 2017]Serial: Serial is Alive: 3
+[Mon May 22 13:44:10 2017]TCP: TCP is Alive: 3
+[Mon May 22 13:44:11 2017]Status: Status is Alive: 4
+[Mon May 22 13:44:11 2017]PyRunner: PyRunner is Alive: 4
+[Mon May 22 13:44:11 2017]Serial: Serial is Alive: 4
+[Mon May 22 13:44:11 2017]TCP: TCP is Alive: 4
+[Mon May 22 13:44:12 2017]Status: Status is Alive: 5
+[Mon May 22 13:44:12 2017]PyRunner: PyRunner is Alive: 5
+[Mon May 22 13:44:12 2017]Serial: Serial is Alive: 5
+[Mon May 22 13:44:12 2017]TCP: TCP is Alive: 5
+[Mon May 22 13:44:13 2017]Status: Status is Alive: 6
+[Mon May 22 13:44:13 2017]PyRunner: PyRunner is Alive: 6
+[Mon May 22 13:44:13 2017]Serial: Serial is Alive: 6
+[Mon May 22 13:44:13 2017]TCP: TCP is Alive: 6
+[Mon May 22 13:44:14 2017]Status: Status is Alive: 7
+[Mon May 22 13:44:14 2017]PyRunner: PyRunner is Alive: 7
+[Mon May 22 13:44:14 2017]Serial: Serial is Alive: 7
+[Mon May 22 13:44:14 2017]TCP: TCP is Alive: 7
+[Mon May 22 13:44:15 2017]Status: Status is Alive: 8
+[Mon May 22 13:44:15 2017]PyRunner: PyRunner is Alive: 8
+[Mon May 22 13:44:15 2017]Serial: Serial is Alive: 8
+[Mon May 22 13:44:15 2017]TCP: TCP is Alive: 8
+[Mon May 22 13:44:16 2017]Status: Status is Alive: 9
+[Mon May 22 13:44:16 2017]PyRunner: PyRunner is Alive: 9
+[Mon May 22 13:44:16 2017]Serial: Serial is Alive: 9
+[Mon May 22 13:44:16 2017]TCP: TCP is Alive: 9
+[Mon May 22 13:44:17 2017]Status: Fin modulo Status
+[Mon May 22 13:44:17 2017]Main: Finish app
+[Mon May 22 13:44:17 2017]PyRunner: Fin modulo PyRunner
+[Mon May 22 13:44:17 2017]Serial: Fin modulo Serial
+[Mon May 22 13:44:17 2017]TCP: Fin modulo TCP
+[Mon May 22 14:05:39 2017]Log...: Archivo de logs guardado en ./log.txt
+[Mon May 22 14:05:39 2017]Main: Start app
+[Mon May 22 14:05:39 2017]Status: Creacion modulo Status
+[Mon May 22 14:05:39 2017]PyRunner: Creacion modulo PyRunner
+[Mon May 22 14:05:39 2017]Serial: Creacion modulo Serial
+[Mon May 22 14:05:39 2017]TCP: Creacion modulo TCP
+[Mon May 22 14:05:44 2017]Status: Inicio modulo Status
+[Mon May 22 14:05:44 2017]PyRunner: Inicio modulo PyRunner
+[Mon May 22 14:05:44 2017]Serial: Inicio modulo Serial
+[Mon May 22 14:05:44 2017]TCP: Inicio modulo TCP
+[Mon May 22 14:05:44 2017]Status: Status is Alive: 0
+[Mon May 22 14:05:44 2017]PyRunner: PyRunner is Alive: 0
+[Mon May 22 14:05:44 2017]Serial: Serial is Alive: 0
+[Mon May 22 14:05:44 2017]TCP: TCP is Alive: 0
+[Mon May 22 14:05:45 2017]Status: Status is Alive: 1
+[Mon May 22 14:05:45 2017]PyRunner: PyRunner is Alive: 1
+[Mon May 22 14:05:45 2017]Serial: Serial is Alive: 1
+[Mon May 22 14:05:45 2017]TCP: TCP is Alive: 1
+[Mon May 22 14:05:46 2017]Status: Status is Alive: 2
+[Mon May 22 14:05:46 2017]PyRunner: PyRunner is Alive: 2
+[Mon May 22 14:05:46 2017]Serial: Serial is Alive: 2
+[Mon May 22 14:05:46 2017]TCP: TCP is Alive: 2
+[Mon May 22 14:05:47 2017]Status: Status is Alive: 3
+[Mon May 22 14:05:47 2017]PyRunner: PyRunner is Alive: 3
+[Mon May 22 14:05:47 2017]Serial: Serial is Alive: 3
+[Mon May 22 14:05:47 2017]TCP: TCP is Alive: 3
+[Mon May 22 14:05:48 2017]Status: Status is Alive: 4
+[Mon May 22 14:05:48 2017]PyRunner: PyRunner is Alive: 4
+[Mon May 22 14:05:48 2017]Serial: Serial is Alive: 4
+[Mon May 22 14:05:48 2017]TCP: TCP is Alive: 4
+[Mon May 22 14:05:49 2017]Status: Status is Alive: 5
+[Mon May 22 14:05:49 2017]PyRunner: PyRunner is Alive: 5
+[Mon May 22 14:05:49 2017]Serial: Serial is Alive: 5
+[Mon May 22 14:05:49 2017]TCP: TCP is Alive: 5
+[Mon May 22 14:05:50 2017]Status: Status is Alive: 6
+[Mon May 22 14:05:50 2017]PyRunner: PyRunner is Alive: 6
+[Mon May 22 14:05:50 2017]Serial: Serial is Alive: 6
+[Mon May 22 14:05:50 2017]TCP: TCP is Alive: 6
+[Mon May 22 14:05:51 2017]Status: Status is Alive: 7
+[Mon May 22 14:05:51 2017]PyRunner: PyRunner is Alive: 7
+[Mon May 22 14:05:51 2017]Serial: Serial is Alive: 7
+[Mon May 22 14:05:51 2017]TCP: TCP is Alive: 7
+[Mon May 22 14:05:52 2017]Status: Status is Alive: 8
+[Mon May 22 14:05:52 2017]PyRunner: PyRunner is Alive: 8
+[Mon May 22 14:05:52 2017]Serial: Serial is Alive: 8
+[Mon May 22 14:05:52 2017]TCP: TCP is Alive: 8
+[Mon May 22 14:05:53 2017]Status: Status is Alive: 9
+[Mon May 22 14:05:53 2017]PyRunner: PyRunner is Alive: 9
+[Mon May 22 14:05:53 2017]Serial: Serial is Alive: 9
+[Mon May 22 14:05:53 2017]TCP: TCP is Alive: 9
+[Mon May 22 14:05:54 2017]Status: Fin modulo Status
+[Mon May 22 14:05:54 2017]Main: Finish app
+[Mon May 22 14:05:54 2017]PyRunner: Fin modulo PyRunner
+[Mon May 22 14:05:54 2017]Serial: Fin modulo Serial
+[Mon May 22 14:05:54 2017]TCP: Fin modulo TCP
+[Mon May 22 16:58:26 2017]Log...: Archivo de logs guardado en ./log.txt
+[Mon May 22 16:58:26 2017]Main: Start app
+[Mon May 22 16:58:26 2017]Status: Creacion modulo Status
+[Mon May 22 16:58:26 2017]PyRunner: Creacion modulo PyRunner
+[Mon May 22 16:58:26 2017]Serial: Creacion modulo Serial
+[Mon May 22 16:58:26 2017]TCP: Creacion modulo TCP
+[Mon May 22 16:58:31 2017]Status: Inicio modulo Status
+[Mon May 22 16:58:31 2017]PyRunner: Inicio modulo PyRunner
+[Mon May 22 16:58:31 2017]Serial: Inicio modulo Serial
+[Mon May 22 16:58:31 2017]TCP: Inicio modulo TCP
+[Mon May 22 16:58:31 2017]Status: Status is Alive: 0
+[Mon May 22 16:58:31 2017]PyRunner: PyRunner is Alive: 0
+[Mon May 22 16:58:31 2017]Serial: Serial is Alive: 0
+[Mon May 22 16:58:31 2017]TCP: TCP is Alive: 0
+[Mon May 22 16:58:32 2017]Status: Status is Alive: 1
+[Mon May 22 16:58:32 2017]PyRunner: PyRunner is Alive: 1
+[Mon May 22 16:58:32 2017]Serial: Serial is Alive: 1
+[Mon May 22 16:58:32 2017]TCP: TCP is Alive: 1
+[Mon May 22 16:58:33 2017]Status: Status is Alive: 2
+[Mon May 22 16:58:33 2017]PyRunner: PyRunner is Alive: 2
+[Mon May 22 16:58:33 2017]Serial: Serial is Alive: 2
+[Mon May 22 16:58:33 2017]TCP: TCP is Alive: 2
+[Mon May 22 16:58:34 2017]Status: Status is Alive: 3
+[Mon May 22 16:58:34 2017]PyRunner: PyRunner is Alive: 3
+[Mon May 22 16:58:34 2017]Serial: Serial is Alive: 3
+[Mon May 22 16:58:34 2017]TCP: TCP is Alive: 3
+[Mon May 22 16:58:35 2017]Status: Status is Alive: 4
+[Mon May 22 16:58:35 2017]PyRunner: PyRunner is Alive: 4
+[Mon May 22 16:58:35 2017]Serial: Serial is Alive: 4
+[Mon May 22 16:58:35 2017]TCP: TCP is Alive: 4
+[Mon May 22 16:58:36 2017]Status: Status is Alive: 5
+[Mon May 22 16:58:36 2017]PyRunner: PyRunner is Alive: 5
+[Mon May 22 16:58:36 2017]Serial: Serial is Alive: 5
+[Mon May 22 16:58:36 2017]TCP: TCP is Alive: 5
+[Mon May 22 16:58:37 2017]Status: Status is Alive: 6
+[Mon May 22 16:58:37 2017]PyRunner: PyRunner is Alive: 6
+[Mon May 22 16:58:37 2017]Serial: Serial is Alive: 6
+[Mon May 22 16:58:37 2017]TCP: TCP is Alive: 6
+[Mon May 22 16:58:38 2017]Status: Status is Alive: 7
+[Mon May 22 16:58:38 2017]PyRunner: PyRunner is Alive: 7
+[Mon May 22 16:58:38 2017]Serial: Serial is Alive: 7
+[Mon May 22 16:58:38 2017]TCP: TCP is Alive: 7
+[Mon May 22 16:58:39 2017]Status: Status is Alive: 8
+[Mon May 22 16:58:39 2017]PyRunner: PyRunner is Alive: 8
+[Mon May 22 16:58:39 2017]Serial: Serial is Alive: 8
+[Mon May 22 16:58:39 2017]TCP: TCP is Alive: 8
+[Mon May 22 16:58:40 2017]Status: Status is Alive: 9
+[Mon May 22 16:58:40 2017]PyRunner: PyRunner is Alive: 9
+[Mon May 22 16:58:40 2017]Serial: Serial is Alive: 9
+[Mon May 22 16:58:40 2017]TCP: TCP is Alive: 9
+[Mon May 22 16:58:41 2017]Status: Fin modulo Status
+[Mon May 22 16:58:41 2017]PyRunner: Fin modulo PyRunner
+[Mon May 22 16:58:41 2017]Serial: Fin modulo Serial
+[Mon May 22 16:58:41 2017]Main: Finish app
+[Mon May 22 16:58:41 2017]TCP: Fin modulo TCP
