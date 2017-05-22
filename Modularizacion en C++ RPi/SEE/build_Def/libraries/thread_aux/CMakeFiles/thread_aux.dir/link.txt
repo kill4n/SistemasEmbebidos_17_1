@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\thread_aux.dir/objects.a
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\thread_aux.dir/objects.a @CMakeFiles\thread_aux.dir\objects1.rsp
+C:\Qt\Qt5.8.0\Tools\mingw530_32\bin\g++.exe    -shared -o ..\..\..\build_Windows\libthread_aux.dll -Wl,--out-implib,..\..\..\build_Windows\libthread_aux.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\thread_aux.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\thread_aux.dir\linklibs.rsp

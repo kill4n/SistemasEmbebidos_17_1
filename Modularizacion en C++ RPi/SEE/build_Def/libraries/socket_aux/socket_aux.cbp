@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="socket_aux"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libraries\;CMake Files\libraries\socket_aux\;CMake Files\libraries\thread_aux\;CMake Files\master\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socket_aux">
+				<Option output="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Windows/libsocket_aux.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE"/>
+					<Add directory="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/socket_aux/include"/>
+					<Add directory="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/socket_aux/src"/>
+					<Add directory="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 socket_aux"/>
+					<CompileFile command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socket_aux/fast">
+				<Option output="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Windows/libsocket_aux.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE"/>
+					<Add directory="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/socket_aux/include"/>
+					<Add directory="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/socket_aux/src"/>
+					<Add directory="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Qt/Qt5.8.0/Tools/mingw530_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 socket_aux/fast"/>
+					<CompileFile command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/build_Def/libraries/socket_aux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/socket_aux/include/mysocket.h">
+			<Option target="socket_aux"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/socket_aux/src/mysocket.cpp">
+			<Option target="socket_aux"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/socket_aux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\socket_aux\"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/socket_aux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\socket_aux\"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/socket_aux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\socket_aux\"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/thread_aux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\thread_aux\"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/thread_aux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\thread_aux\"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/libraries/thread_aux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libraries\thread_aux\"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\master\"/>
+		</Unit>
+		<Unit filename="C:/Users/crhistian/Dropbox/Doctorado Andes/Semsestre 2017-I/Sistemas Embebidos/Git/SistemasEmbebidos_17_1/Modularizacion en C++ RPi/SEE/master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\master\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
