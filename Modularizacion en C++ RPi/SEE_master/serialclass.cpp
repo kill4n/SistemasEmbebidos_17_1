@@ -1,5 +1,11 @@
 #include "serialclass.h"
+/* Developed and mantained by killan*/
 
+/* Constructor
+ * parametros de entrada:
+ *  seg     -> Cada cuanto se repite el proceso en segundos
+ *  *myLog  -> Apuntador al Objeto que escribe el Log
+ */
 SerialClass::SerialClass(unsigned long seg, LogClass *myLog)
 {
     this->setObjectName("Serial");
@@ -7,12 +13,12 @@ SerialClass::SerialClass(unsigned long seg, LogClass *myLog)
     mLog = myLog;
     mLog->writeLog(this, "Creacion modulo " + this->objectName());
 }
-
+//Destructor
 SerialClass::~SerialClass()
 {
     mLog->writeLog(this, "Fin modulo " + this->objectName());
 }
-
+//Funcion que se ejecuta al iniciar el hilo
 void SerialClass::run()
 {
     mLog->writeLog(this, "Inicio modulo " + this->objectName());
@@ -32,7 +38,7 @@ void SerialClass::run()
     }
     mLog->writeLog(this, "Fin modulo " + this->objectName());
 }
-
+//Funcion para detener el proceso
 void SerialClass::stop()
 {
     this->mStop = true;

@@ -1,5 +1,11 @@
 #include "tcpclass.h"
+/* Developed and mantained by killan*/
 
+/* Constructor
+ * parametros de entrada:
+ *  seg     -> Cada cuanto se repite el proceso en segundos
+ *  *myLog  -> Apuntador al Objeto que escribe el Log
+ */
 TCPClass::TCPClass(unsigned long seg, LogClass *myLog)
 {
     this->setObjectName("TCP");
@@ -7,12 +13,12 @@ TCPClass::TCPClass(unsigned long seg, LogClass *myLog)
     mLog = myLog;
     mLog->writeLog(this, "Creacion modulo " + this->objectName());
 }
-
+//Destructor
 TCPClass::~TCPClass()
 {
     mLog->writeLog(this, "Fin modulo " + this->objectName());
 }
-
+//Funcion que se ejecuta al iniciar el hilo
 void TCPClass::run()
 {
     mLog->writeLog(this, "Inicio modulo " + this->objectName());
@@ -33,7 +39,7 @@ void TCPClass::run()
     }
     mLog->writeLog(this, "Fin modulo " + this->objectName());
 }
-
+//Funcion para detener el proceso
 void TCPClass::stop()
 {
     this->mStop = true;

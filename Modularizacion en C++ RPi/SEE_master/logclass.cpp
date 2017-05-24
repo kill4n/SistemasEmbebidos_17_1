@@ -1,8 +1,7 @@
 #include "logclass.h"
-#include <QTextStream>
-#include <QDateTime>
+/* Developed and mantained by killan*/
 
-
+//Constructor que recibe la direccion del archivo a crear.
 LogClass::LogClass(QString path):_path(path)
 {
     this->setObjectName("Log...");
@@ -16,19 +15,29 @@ LogClass::LogClass(QString path):_path(path)
         writeLog(this, "Archivo de logs guardado en " + _path);
     }
 }
-
+//Destructor
 LogClass::~LogClass()
 {
     try {
         _file->close();
     } catch (...) {
     }
+    delete this->_file;
+    this->_file = nullptr;
 }
-
+/* Funcion para escribir en el archivo de texto
+ * Recibe en la primera parte el nombre de quien
+ * genera el mensje para el log, y en el segundo
+ * parametro el mensaj que se desea enviar
+ */
 void LogClass::writeLog(QObject *sender,QString message){
     writeLog(sender->objectName(), message);
 }
-
+/* Funcion para escribir en el archivo de texto
+ * Recibe en la primera parte el objeto que
+ * genera el mensje para el log, y en el segundo
+ * parametro el mensaj que se desea enviar
+ */
 void LogClass::writeLog(QString name, QString message)
 {
     mutex.lock();
