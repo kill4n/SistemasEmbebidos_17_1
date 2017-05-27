@@ -1,0 +1,10 @@
+C:\Users\crhistian\Downloads\SEE_mop\SEE_mop\bin\Debug\SEE_mop.exe
+C:\Users\crhistian\Downloads\SEE_mop\SEE_mop\bin\Debug\SEE_mop.pdb
+C:\Users\crhistian\Downloads\SEE_mop\SEE_mop\obj\x86\Debug\SEE_mop.csprojResolveAssemblyReference.cache
+C:\Users\crhistian\Downloads\SEE_mop\SEE_mop\obj\x86\Debug\SEE_mop.exe
+C:\Users\crhistian\Downloads\SEE_mop\SEE_mop\obj\x86\Debug\SEE_mop.pdb
+C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\MoP SEE\mopC#\SEE_mop\SEE_mop\obj\x86\Debug\SEE_mop.exe
+C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\MoP SEE\mopC#\SEE_mop\SEE_mop\obj\x86\Debug\SEE_mop.pdb
+C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\MoP SEE\mopC#\SEE_mop\SEE_mop\bin\Debug\SEE_mop.exe
+C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\MoP SEE\mopC#\SEE_mop\SEE_mop\bin\Debug\SEE_mop.pdb
+C:\Users\crhistian\Dropbox\Doctorado Andes\Semsestre 2017-I\Sistemas Embebidos\Git\SistemasEmbebidos_17_1\MoP SEE\mopC#\SEE_mop\SEE_mop\obj\x86\Debug\SEE_mop.csprojResolveAssemblyReference.cache
